@@ -71,12 +71,86 @@ h1 span {
     width: 50%;
     max-width: 100%;
 }
-.about-text-block h2 {
+h2 {
     font-size: 32px;
     margin-top: 0;
 }
 .about-text-block p {
     margin-bottom: 2px;
     margin-top: 0;
+    font-size: 20px;
+}
+/* -----------------------------------work-------------------------------*/
+
+.work-section{
+    padding: 60px 96px;
+}
+.work-block{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+h5 {
+    font-size: 18px;
+    color: #6b7280;
+}
+h4 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+.do-block {
+    width: 50%;
+    max-width: 100%;
+}
+.do-block p{
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.project-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-block {
+    width: 30.333%;
+    max-width: 100%;
+    margin: 15px;
+}
+.project-box{
+    display: block;
+    border: 2px solid rgb(17 24 39/0.7) ;
+    border-radius: 20px;
+    height: 300px;
+    background-color: rgb(17 24 39/0.6);
+    /* backdrop-filter: blur(10px); */
+    position: relative;
+    transition: all 0.3s linear;
+}
+.project-img {
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+}
+.project-box:hover{
+    box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.4);
+}
+.project-box:hover .project-img {
+    transform: scale(1.1);
+}
+.bg-color {
+    background-image: radial-gradient(#6b7280 1px, #f9fafb 1px);
+    padding: 60px 96px;
+}
+.bg-color li {
+    margin-bottom: 2px;
+    margin-top: 10px;
     font-size: 20px;
 }
