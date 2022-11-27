@@ -12,7 +12,7 @@
       <nav id="main-header" class="navbar">
         <div class="navbar-wrapper">
           <a href="#"
-            ><img src="./assets/Hardika.com.svg" alt="Die Kreuzer Höfe"
+            ><img src="./assets/Hardika.com.svg" alt="Logo" width="100%"
           /></a>
           <ul class="nav-ul-list">
             <li class="nav-item">
@@ -22,10 +22,10 @@
               <a class="nav-link" href="#about-section">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work-section">My works</a>
+              <a class="nav-link" href="#work-section">My Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact me</a>
+              <a class="nav-link" href="#contact-section">Contact me</a>
             </li>
           </ul>
         </div>
@@ -41,10 +41,21 @@
           or WordPress and Wireframe in Figma, to facilitate user interaction.
         </p>
       </div>
+      <div class="link-block">
+        <a href="https://github.com/hardika-spec-610" target="_blank">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/hardika-moradiya/" target="_blank"
+          >LinkedIn</a
+        >
+      </div>
     </section>
     <section id="about-section" class="about-section">
       <div class="about-img-block">
-        <img src="./assets/dev-focus.svg" />
+        <img
+          class="women-img"
+          src="./assets/Women Web Developer with laptop.svg"
+          alt="women web developer img"
+        />
       </div>
       <div class="about-text-block">
         <h2>About Me.</h2>
@@ -72,19 +83,19 @@
     <section id="work-section" class="work-section">
       <div class="work-block">
         <div class="do-block">
-          <h2>My works.</h2>
+          <h2>My Projects.</h2>
           <h5>What can I do</h5>
+          <h4>Frontend Development</h4>
           <h4>WordPress - Elementor Website design</h4>
           <h4>Webflow Web design & Responsive</h4>
-          <h4>Frontend Development</h4>
           <h4>Backend Development</h4>
           <p>
             Within my designs I value Inovative, simplicity and symmetry. I
             designed some projects which is my personal improvement.
           </p>
         </div>
-        <div class="do-block">
-          <img src="./assets/Image_vector.svg" alt="vector-img" width="90%" />
+        <div class="do-block text-align-right">
+          <img src="./assets/Image_vector.svg" alt="vector-img" width="75%" />
         </div>
       </div>
       <div class="project-wrap">
@@ -177,11 +188,85 @@
         </ul>
       </div>
     </section>
-    <!-- <section class="contact-section">
-      <form>
-        <input type="text" placeholder="Your First Name" />
-        <input type="text" placeholder="Your Last Name" />
-      </form>
-    </section> -->
+    <section id="contact-section" class="contact-section">
+      <div class="contact-wrap">
+        <h2>Let's talk</h2>
+        <p>Have any question?</p>
+
+        <form class="form-wrap">
+          <div class="form-input-2">
+            <div class="input-block">
+              <label for="fname">First Name*</label><br />
+              <input
+                class="input-space"
+                type="text"
+                id="fname"
+                placeholder="e.g. Hardika"
+              />
+            </div>
+            <div class="input-block">
+              <label for="lname">Last Name*</label><br />
+              <input
+                class="input-space"
+                type="text"
+                id="lname"
+                placeholder="e.g. Moradiya"
+              />
+            </div>
+          </div>
+          <div class="form-input-2">
+            <div class="input-block">
+              <label for="email">Email*</label><br />
+              <input
+                class="input-space"
+                type="email"
+                id="email"
+                placeholder="e.g. hardika@moradiya.com"
+              />
+            </div>
+            <div class="input-block">
+              <label for="companyname">Company Name*</label><br />
+              <input
+                class="input-space"
+                type="text"
+                id="companyname"
+                placeholder="e.g. Fokus GmbH"
+              />
+            </div>
+          </div>
+          <div class="form-textarea-block">
+            <textarea name="message" rows="8" placeholder="Message"></textarea>
+          </div>
+          <button class="submit-btn" type="button">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer class="ftr-section">
+      <div>
+        <a href="index.html"
+          ><img src="./assets/ftr_Hardika.com.svg" alt="Logo"
+        /></a>
+        <p class="ftr-text">Let's Get Creative</p>
+        <p class="copyright">© 2022 All Rights Reserved</p>
+      </div>
+      <div class="ftr-email">
+        <p>E-mail</p>
+        <a href="#">hardika.moradiya@web.de</a>
+      </div>
+      <div class="social-links">
+        <a
+          class="ftr-link"
+          href="https://github.com/hardika-spec-610"
+          target="_blank"
+          >GitHub</a
+        ><br />
+        <a
+          class="ftr-link"
+          href="https://www.linkedin.com/in/hardika-moradiya/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
